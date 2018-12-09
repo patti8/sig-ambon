@@ -10,20 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_10_023452) do
+ActiveRecord::Schema.define(version: 2018_12_10_023453) do
 
   create_table "places", force: :cascade do |t|
+    t.string "name"
     t.decimal "latitude"
     t.decimal "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "alamat"
-    t.string "tahun_berdiri"
-    t.string "luas"
-    t.string "fasilitas"
-    t.string "waktu_operasional"
-    t.string "tarif_masuk"
     t.string "avatar"
+    t.string "nama_wisata"
   end
 
   create_table "users", force: :cascade do |t|

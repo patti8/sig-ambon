@@ -9,5 +9,4 @@ class CreateUsers < ActiveRecord::Migration[5.2]
     end
   end
 
-  drop_table :names
 end

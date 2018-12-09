@@ -1,0 +1,15 @@
+h1{
+		font-family: 'Segoe UI';
+		font-size: 45px;
+		font-weight: Regular;
+		color: #FB6542;
+	}
+.beranda-h2{
+	font-family: 'Segoe UI';
+	font-wight: Bold;
+	color: #3F681C;
+	letter-spacing: 15px;
+}
+.beranda-font{
+	font-family: 'Segoe UI';
+}

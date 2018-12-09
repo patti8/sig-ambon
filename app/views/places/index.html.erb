@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<% if current_user %>
+
 <h1>Wisata di P.Ambon</h1>
 
 <table>
@@ -23,9 +23,10 @@
   
     <% @places.each do |place| %>
       <tr>
+        <td><%= place.nama_wisata %></td>
         <td><%= place.alamat %></td>
         <td><%= place.tahun_berdiri%></td>
-        <td><%= place.luas%></td>
+        <td><%= place.luas%><sub>2</sub></td>
         <td><%= place.fasilitas%></td>
         <td><%= place.waktu_operasional%></td>
         <td><%= place.tarif_masuk%></td>
@@ -44,7 +45,6 @@
 <br>
 
 <%= link_to 'Tambah wisata', new_place_path %>
-<% else %>
       bukang 
-    <% end %>
+
 <%=  link_to 'Beranda', root_path %>
