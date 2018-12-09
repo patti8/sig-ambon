@@ -1,0 +1,2 @@
+class BerandaController < ApplicationController
+end
