@@ -57,9 +57,9 @@
 </p>
 
 <p>
-	<h2>Map Statis</h2><br>
-	<%= image_tag "https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=400x300&markers=size:small%7Ccolor:blue%7C#{@place.latitude},#{@place.longitude}&key=#{Rails.application.credentials.google_maps_api_key}", alt: "Map" %>
-
+  <strong>Polygon:</strong>
+  <% unless @place.avatar_url.nil? %><%= image_tag @place.avatar_url(:display)%><br />
+  <% end %>
 </p>
 
 <p>

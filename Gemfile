@@ -10,6 +10,9 @@ gem 'sqlite3'
 # Boostrap
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+# pengunggah gambar
+gem 'carrierwave'
+gem 'cloudinary'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets

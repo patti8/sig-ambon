@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_09_142552) do
+ActiveRecord::Schema.define(version: 2018_12_10_023452) do
 
   create_table "places", force: :cascade do |t|
     t.decimal "latitude"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2018_12_09_142552) do
     t.string "fasilitas"
     t.string "waktu_operasional"
     t.string "tarif_masuk"
+    t.string "avatar"
   end
 
   create_table "users", force: :cascade do |t|
@@ -31,6 +32,7 @@ ActiveRecord::Schema.define(version: 2018_12_09_142552) do
     t.string "password_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "avatar"
   end
 
 end

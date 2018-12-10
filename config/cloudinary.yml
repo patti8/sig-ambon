@@ -1,0 +1,10 @@
+development:
+  cloud_name: "dao1knfl1"
+  api_key: "467365545841942"
+  api_secret: "iNsN4tm9UBkbvjOsJwlOeSsVP2w"
+
+production:
+  cloud_name: "dao1knfl1"
+  api_key: "467365545841942"
+  api_secret: "iNsN4tm9UBkbvjOsJwlOeSsVP2w" 
+  
